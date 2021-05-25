@@ -1,6 +1,6 @@
 function lvl1exercise1 () {
   // Declare a variable without instantiating it and return it!
-  const iAmaVariable = "hello world!";
+  const iAmaVariable; //instatiating is assigning the variable a value
   return iAmaVariable;
 }
 
@@ -26,14 +26,14 @@ function lvl1exercise4 () {
 
 function lvl1exercise5 () {
   // Declare and instantiate an array containing the string "Hello World!" and the number 4 and return it
-  const myArray = ["hello world", 4];
+  const myArray = ["Hello World!", 4];
   return myArray;
 
 }
 
 function lvl1exercise6 () {
   // Declare and instantiate an object containing the key-value pairs key1 -> "Hello World!" and key2 -> 4, and return it
-  const myObject = {name: "sarah", age: "25"};
+  const myObject = {key1: "Hello World!", key2: 4};
   return myObject;
 }
 

@@ -27,6 +27,11 @@ function lvl4exercise5 (bool1, bool2) {
 
 function lvl4exercise6 (bool1, bool2) {
   // Return the logical "equivalence" of the input boolean values
-  return bool1 === bool2;
+  if (bool1 === bool2) {
+    return true
+  } else {
+    return false;
+  }
+  // return bool1 === bool2; another, shorter way to go about it
 }
 
